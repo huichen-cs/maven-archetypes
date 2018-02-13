@@ -68,6 +68,9 @@ scp -r archetype-catalog.xml java9-junit4-basic \
        webadmin@example.com:/var/html/maven/archetypes/
 ```
 
+For this particular example, we may set up a remote archetype using the
+archetype catalogue,
+[Java9-JUnit4-Basic Archetype](https://huichen-cs.github.io/maven/archetypes/archetype-catalog.xml)
 
 
 
