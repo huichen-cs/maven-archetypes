@@ -8,7 +8,9 @@ Java 9 and JUnit 4.
 
 ## Creating Archetypes
 
-Below are a work flow to create Maven archetypes.
+There are several methods to create a Maven archetype. We create this archetype
+by modeling an existing Maven project. Below is a work flow to create Maven
+archetypes.
 
 1. Create a Maven project, such as a Maven Java project in the Eclipse IDE,
    e.g., the `java9-junit4-basic` project and the project is at the
