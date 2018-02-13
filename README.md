@@ -1,26 +1,37 @@
 # Maven Archetypes
 
-## Archetype
+## Archetypes
+`java8-junit4-basic-archetype`: a very basic Maven archetype. The only
+difference between this one and the Quickstart archetype is that the project
+compiles using Java 8 (a.k.a., 1.8) and JUnit 4. 
 
-`java9-junit4-basic`: a very basic Maven archetype. The only difference between
-this one and the Quickstart archetype is that the project compiles using
-Java 9 and JUnit 4. 
+`java8-junit4-slf4j-basic-archetype`: a very basic Maven archetype. The only
+difference between this one and the Quickstart archetype is that the project
+compiles using Java 8 (a.k.a., 1.8)  and JUnit 4, and has necessary
+dependencies for logging with `slf4j` and Apache Log4j as the actual logging
+framework. 
 
-`java9-junit4-slf4j-basic`: a very basic Maven archetype. The only difference
-between this one and the Quickstart archetype is that the project compiles
-using Java 9 and JUnit 4, and has necessary dependencies for logging with
-`slf4j` and Apache Log4j as the actual logging framework. 
+`java9-junit4-basic-archetype`: a very basic Maven archetype. The only
+difference between this one and the Quickstart archetype is that the project
+compiles using Java 9 and JUnit 4. 
 
-## Repository 
+`java9-junit4-slf4j-basic-archetype`: a very basic Maven archetype. The only
+difference between this one and the Quickstart archetype is that the project
+compiles using Java 9 and JUnit 4, and has necessary dependencies for logging
+with `slf4j` and Apache Log4j as the actual logging framework. 
 
-`java9-junit4-basic`: model Maven Java project for the
-`java9-junit4-basic-archetype`
 
-`java9-junit4-slf4j`: model Maven Java project for the
-`java9-junit4-slf4j-basic` archetype.
+## Publishing URL
 
-`java9-junit4-slf4j-basic-archetype`: Maven project for the archetype, 
-generated and revised from `java9-junit4-slf4j`.
+These archetypes are published at the
+
+[Archetype Repository](https://huichen-cs.github.io/maven/archetypes/archetype-catalog.xml)
+
+
+In the Eclipse IDE, you can add the archetypes by going to "Window", 
+"Preferences", "Maven", "Archetypes", and "Add Remote Catlog...". 
+
+
 
 ## Creating Archetypes
 
