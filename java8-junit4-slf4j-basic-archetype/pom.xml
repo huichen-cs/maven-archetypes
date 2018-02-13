@@ -3,11 +3,11 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>edu.cuny.brooklyn.archetypes</groupId>
-  <artifactId>java9-junit4-basic-archetype</artifactId>
+  <artifactId>java8-junit4-slf4j-basic</artifactId>
   <version>1.0</version>
   <packaging>maven-archetype</packaging>
 
-  <name>java9-junit4-basic-archetype</name>
+  <name>java8-junit4-slf4j-basic</name>
 
   <build>
     <extensions>
