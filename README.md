@@ -67,11 +67,11 @@ where the source is, e.g.,
    must meet its requirements, such as, signing the archetype with our PGP key,
    declaring license term, and some other measures. The guideline is at,
 
-[Guide to uploading artifacts to the Central Repository](https://maven.apache.org/guides/mini/guide-central-repository-upload.html)
+    [Guide to uploading artifacts to the Central Repository](https://maven.apache.org/guides/mini/guide-central-repository-upload.html)
 
     and
 
-[Requirements](http://central.sonatype.org/pages/requirements.html)
+    [Requirements](http://central.sonatype.org/pages/requirements.html)
 
     However, if we elect to publish the archetype at a self-maintained
     repository, we may skip these steps by simplying copying the catalogue file
