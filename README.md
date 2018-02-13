@@ -6,6 +6,22 @@
 this one and the Quickstart archetype is that the project compiles using
 Java 9 and JUnit 4. 
 
+`java9-junit4-slf4j-basic`: a very basic Maven archetype. The only difference
+between this one and the Quickstart archetype is that the project compiles
+using Java 9 and JUnit 4, and has necessary dependencies for logging with
+`slf4j` and Apache Log4j as the actual logging framework. 
+
+## Repository 
+
+`java9-junit4-basic`: model Maven Java project for the
+`java9-junit4-basic-archetype`
+
+`java9-junit4-slf4j`: model Maven Java project for the
+`java9-junit4-slf4j-basic` archetype.
+
+`java9-junit4-slf4j-basic-archetype`: Maven project for the archetype, 
+generated and revised from `java9-junit4-slf4j`.
+
 ## Creating Archetypes
 
 There are several methods to create a Maven archetype. We create this archetype
