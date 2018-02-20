@@ -23,12 +23,12 @@
 	<Loggers>
 		<Logger name="${package}" level="ALL"
 			additivity="false">
-			<AppenderRef ref="Console" />
-			<AppenderRef ref="ASYNCFILE" />
+			<AppenderRef ref="Console" level="INFO"/>
+			<AppenderRef ref="ASYNCFILE" level="ALL"/>
 		</Logger>
-		<Root level="debug">
-			<AppenderRef ref="Console" />
-			<AppenderRef ref="ASYNCFILE" />
+		<Root level="ALL">
+			<AppenderRef ref="Console" level="INFO"/>
+			<AppenderRef ref="ASYNCFILE" level="ALL"/>
 		</Root>
 	</Loggers>
 </Configuration>
