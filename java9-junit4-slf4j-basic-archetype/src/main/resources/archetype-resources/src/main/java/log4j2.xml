@@ -1,7 +1,7 @@
 #set( $symbol_pound = '#' )
 #set( $symbol_dollar = '$' )
 #set( $symbol_escape = '\' )
-<?xml version="${version}" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE xml>
 <Configuration status="WARN">
 	<Appenders>
@@ -9,7 +9,7 @@
 			<PatternLayout
 				pattern="%d{HH:mm:ss.SSS} [%t] %-5level %l - %msg%n" />
 		</Console>
-		<File name="LogFile" fileName="app.log" immediateFlush="true"
+		<File name="LogFile" fileName="${artifactId}.log" immediateFlush="true"
 			append="false">
 			<PatternLayout
 				pattern="%d{yyy-MM-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} %l - %msg%n" />
